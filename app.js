@@ -3,6 +3,7 @@ const express =require("express"
 const dotenv = require("dotenv");
 const contactoRoutes = require("./src/routes/contactoRoutes");
 const cors = require ("cors");
+const {Client} = require('pg');
 
 dotenv.config();
 
