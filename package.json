@@ -5,6 +5,8 @@
   "scripts": {
     "start": "node app.js"
   },
+  "build":"echo\"No necesario\"",
+  "vercel-build":"npm install",
   "keywords": [],
   "author": "",
   "license": "ISC",
