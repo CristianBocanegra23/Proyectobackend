@@ -1,7 +1,7 @@
 const express =require("express"
 );
 const dotenv = require("dotenv");
-const authRoutes = require("./src/routes/authRoutes");
+const contactoRoutes = require("./src/routes/contactoRoutes");
 const cors = require ("cors");
 
 dotenv.config();
@@ -11,7 +11,8 @@ app.use(express.json());
 app.use(cors());
 
 
-app.use("/auth",authRoutes);
+app.use("/contacto",contactoRoutes);
+
 
 app.listen(3000,()=> {
 
