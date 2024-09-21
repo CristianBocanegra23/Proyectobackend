@@ -2,11 +2,60 @@
 
     "version": 2,
     "builds":[
+        {
+            "src":"index(1).HTML",
+            "use": "@vercel/node"
+        
+            },
+            
+        {
+            "src":"Formulario.HTML",
+            "use": "@vercel/node"
+        
+            },
+            
+        {
+            "src":"script.js",
+            "use": "@vercel/node"
+        
+            },
+            
+        {
+            "src":"styles(1).css",
+            "use": "@vercel/node"
+        
+            },
     {
     "src":"app.js",
     "use": "@vercel/node"
 
-    }
+    },
+
+    {
+        "src":"style.css",
+        "use": "@vercel/node"
+    
+        },
+        {
+            "src":"img/multimedia*",
+            "use": "@vercel/node"
+        
+            },
+            {
+                "src":"categorias/*",
+                "use": "@vercel/node"
+            
+                },
+                {
+                    "src":"cliente/*",
+                    "use": "@vercel/node"
+                
+                    },
+                    {
+                        "src":"products/*",
+                        "use": "@vercel/node"
+                    
+                        }
     ],
 
     "routes":[
